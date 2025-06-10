@@ -6,29 +6,29 @@ import plotly.express as px
 import numpy as np
 
 st.set_page_config(
-    page_title="Model Information",
+    page_title="Models Information",
     page_icon="🖥️"
 )
 
 def show_model_information_page():
 
-    st.title('🖥️ Model Information')
-    st.write("##### Goals:")
+    st.title('🖥️ Models Information')
+    st.write("##### 🔍 Goals:")
     st.write('- Modeling from **scratch** without ML Library')
     st.write('- Data Augmentation using GAN')
     st.write('- Feature Selection using ANOVA')
     st.write('- Deploy Best Model into Web App')
 
-    st.write("#### Models from Scratch:")
+    st.write("#### 💻 Models from Scratch:")
     st.write('- Logistic Regression')
     st.write('- Naive Bayes')
     st.write('- Perceptron')
     st.write('- SVM')
 
-    st.write('#### Model from ML Library:')
+    st.write('#### 💻 Model from ML Library:')
     st.write('- CatBoost Classifier (digunakan pada web app ini)')
 
-    st.write('#### Komparasi Akurasi Model Sebelum & Setelah GAN + Feature Selection')
+    st.write('#### 📈 Komparasi Akurasi Model Sebelum & Setelah GAN + Feature Selection')
 
     nama_model = ['Logistic Regression', 'Naive Bayes', 'Perceptron', 'SVM', 'CatBoost']
     nama_model2 = ['Logistic Regression', 'Naive Bayes', 'Perceptron', 'SVM']
